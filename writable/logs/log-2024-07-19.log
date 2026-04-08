@@ -1,0 +1,1030 @@
+CRITICAL - 2024-07-19 10:16:47 --> Error: Class "App\Controllers\Accounts_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:19:35 --> Error: Class "App\Controllers\Accounts_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:19:35 --> Error: Class "App\Controllers\Accounts_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:19:36 --> Error: Class "App\Controllers\Accounts_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:19:36 --> Error: Class "App\Controllers\Accounts_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:19:56 --> ErrorException: Undefined variable $accounts_data
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 32.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts_data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(9): view('kd_project\\accounts_data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:19:59 --> ErrorException: Undefined variable $accounts_data
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 32.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts_data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(9): view('kd_project\\accounts_data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:39:43 --> Error: Class "App\Controllers\Accounts_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:44:51 --> Error: Class "App\Models\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:48:05 --> Error: Class "App\Models\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:49:07 --> Error: Class "App\Models\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:49:08 --> Error: Class "App\Models\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:49:08 --> Error: Class "App\Models\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:49:09 --> Error: Class "App\Models\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:50:57 --> Error: Class "App\Controllers\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 10:51:42 --> Error: Class "App\Controllers\Account_data_model" not found
+[Method: GET, Route: accounts_data]
+in APPPATH\Controllers\accounts_data_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:02:58 --> ErrorException: Undefined variable $accounts_data
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 31.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts_data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:05:48 --> ErrorException: Undefined variable $accounts_data
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 31.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts_data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:08:08 --> ErrorException: Undefined variable $accounts_data
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 32.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts_data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:22:23 --> ParseError: Unmatched '}'
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 58.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:23:16 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:37:25 --> ParseError: syntax error, unexpected token "/", expecting end of file
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 34.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:37:27 --> ParseError: syntax error, unexpected token "/", expecting end of file
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 34.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:37:27 --> ParseError: syntax error, unexpected token "/", expecting end of file
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 34.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 11:38:22 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:39:12 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:39:53 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:43:42 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:53:33 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:56:30 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 11:59:02 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 47.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 12:04:46 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 12:08:32 --> ErrorException: Undefined variable $accounts_data
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 32.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $accounts_data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 12:09:39 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 12:10:42 --> ErrorException: Array to string conversion
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 34.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 12:12:16 --> ParseError: syntax error, unexpected token "=", expecting "->" or "?->" or "{" or "["
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 33.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 12:12:16 --> ParseError: syntax error, unexpected token "=", expecting "->" or "?->" or "{" or "["
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 33.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 12:12:17 --> ParseError: syntax error, unexpected token "=", expecting "->" or "?->" or "{" or "["
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 33.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 12:32:19 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 15:45:42 --> ErrorException: Cannot use [] for reading
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-19 15:48:44 --> ParseError: syntax error, unexpected token "=", expecting "->" or "?->" or "{" or "["
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 34.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:31:09 --> ErrorException: Undefined array key "account_name"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 37.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:37:08 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:40:00 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:40:02 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:40:18 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:40:25 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:40:27 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:40:30 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:41:54 --> ParseError: syntax error, unexpected token "*", expecting end of file
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 42.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:42:00 --> ParseError: syntax error, unexpected token "*", expecting end of file
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 42.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:43:52 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:43:56 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:45:44 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:45:44 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:45:45 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:45:45 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:47:11 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:47:12 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:08 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:10 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:14 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:16 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:20 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:33 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:38 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:39 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:39 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:48:44 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:50:09 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:50:20 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:50:21 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:50:43 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:52:48 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:52:51 --> ParseError: Unclosed '{' on line 34
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 80.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 3 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 16:56:14 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:00:03 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:00:06 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:00:07 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:00:11 --> ErrorException: Undefined array key "account_number"
+[Method: GET, Route: accounts_data]
+in APPPATH\Views\kd_project\accounts_data_view.php on line 46.
+ 1 APPPATH\Views\kd_project\accounts_data_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_number"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\accounts_data_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\accounts_data_view', [], true)
+ 5 APPPATH\Controllers\accounts_data_controller.php(23): view('kd_project\\accounts_data_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-19 17:27:50 --> mysqli_sql_exception: Unknown column 'account_no' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-19 17:27:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'account_no' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:27:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'account_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 3 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:27:50 --> [Caused by] mysqli_sql_exception: Unknown column 'account_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 4 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-19 17:29:03 --> mysqli_sql_exception: Unknown column 'account_no' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-19 17:29:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'account_no' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:29:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'account_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 3 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:29:03 --> [Caused by] mysqli_sql_exception: Unknown column 'account_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 4 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'3432874989\', \'15-04-2024\', \'30000\', \'326472864\', \'3424\', \'32432\', \'3424\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-19 17:30:49 --> mysqli_sql_exception: Unknown column 'account_no' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-19 17:30:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'account_no' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:30:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'account_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 3 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-19 17:30:49 --> [Caused by] mysqli_sql_exception: Unknown column 'account_no' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 4 APPPATH\Models\accounts_data_model.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'43535\', \'435435\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(33): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

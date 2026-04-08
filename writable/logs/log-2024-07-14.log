@@ -1,0 +1,446 @@
+CRITICAL - 2024-07-14 05:44:14 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:44:16 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:44:19 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:45:22 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:45:23 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:45:23 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:45:24 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:46:04 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:46:18 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:49:22 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:49:23 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:49:23 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:49:24 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:49:24 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:53:55 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:53:56 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:53:56 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:53:57 --> Error: Class "App\Controllers\AccountModel" not found
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\account_controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:57:54 --> ErrorException: Undefined property: App\Controllers\account_controller::$account
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 APPPATH\Controllers\account_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\account_controller::$account', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:57:55 --> ErrorException: Undefined property: App\Controllers\account_controller::$account
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 APPPATH\Controllers\account_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\account_controller::$account', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:57:55 --> ErrorException: Undefined property: App\Controllers\account_controller::$account
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 APPPATH\Controllers\account_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\account_controller::$account', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:57:55 --> ErrorException: Undefined property: App\Controllers\account_controller::$account
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 APPPATH\Controllers\account_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\account_controller::$account', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:59:07 --> ErrorException: Undefined property: App\Controllers\account_controller::$account
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 APPPATH\Controllers\account_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\account_controller::$account', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 05:59:10 --> ErrorException: Undefined property: App\Controllers\account_controller::$account
+[Method: GET, Route: version]
+in APPPATH\Controllers\account_controller.php on line 10.
+ 1 APPPATH\Controllers\account_controller.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\account_controller::$account', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:24:02 --> ErrorException: Undefined variable $data
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 10.
+ 1 APPPATH\Views\kd_project\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 5 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:43:24 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:43:45 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:44:03 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:44:39 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:44:40 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:44:41 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:45:24 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:45:25 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:45:31 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:45:41 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:45:47 --> ParseError: syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 3 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 07:48:00 --> ErrorException: Undefined array key "[account_type"
+[Method: GET, Route: version]
+in APPPATH\Views\kd_project\index.php on line 44.
+ 1 APPPATH\Views\kd_project\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "[account_type"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\kd_project\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kd_project\\index', [], true)
+ 5 APPPATH\Controllers\account_controller.php(22): view('kd_project\\index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 09:03:23 --> ErrorException: Undefined variable $acc_model
+[Method: GET, Route: accounts]
+in APPPATH\Controllers\account_controller.php on line 17.
+ 1 APPPATH\Controllers\account_controller.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $acc_model', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 09:04:19 --> ErrorException: Undefined variable $acc_model
+[Method: GET, Route: accounts]
+in APPPATH\Controllers\account_controller.php on line 17.
+ 1 APPPATH\Controllers\account_controller.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $acc_model', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 09:04:21 --> ErrorException: Undefined variable $acc_model
+[Method: GET, Route: accounts]
+in APPPATH\Controllers\account_controller.php on line 17.
+ 1 APPPATH\Controllers\account_controller.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $acc_model', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 09:05:43 --> ParseError: syntax error, unexpected token "="
+[Method: GET, Route: accounts]
+in APPPATH\Controllers\account_controller.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\account_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\account_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\account_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 09:05:56 --> ErrorException: Undefined variable $acc_model
+[Method: GET, Route: accounts]
+in APPPATH\Controllers\account_controller.php on line 19.
+ 1 APPPATH\Controllers\account_controller.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $acc_model', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\account_controller.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\account_controller->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\account_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-14 16:29:26 --> ParseError: Unclosed '{' on line 5
+[Method: GET, Route: accounts]
+in APPPATH\Controllers\account_controller.php on line 91.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Account_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Account_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Account_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Account_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

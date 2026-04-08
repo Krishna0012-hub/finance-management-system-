@@ -1,0 +1,206 @@
+CRITICAL - 2024-07-21 11:49:04 --> ErrorException: Undefined variable $datetime
+[Method: POST, Route: accounts_data/save_accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 APPPATH\Models\accounts_data_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datetime', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\accounts_data_model.php', 23)
+ 2 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-21 12:09:04 --> mysqli_sql_exception: Unknown column '	as_on_date' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-21 12:09:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:09:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 3 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:09:04 --> [Caused by] mysqli_sql_exception: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 4 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-21 12:12:15 --> mysqli_sql_exception: Unknown column '	as_on_date' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-21 12:12:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:12:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 3 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:12:15 --> [Caused by] mysqli_sql_exception: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 4 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'432424\', \'3424\', \'32424\', \'32424\', \'3242\', \'3424\', \'32424\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:13:08 --> ParseError: syntax error, unexpected double-quoted string "', '"
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:13:56 --> ParseError: Unterminated comment starting line 23
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:13:57 --> ParseError: Unterminated comment starting line 23
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:13:57 --> ParseError: Unterminated comment starting line 23
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:13:57 --> ParseError: Unterminated comment starting line 23
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:14:04 --> ParseError: Unterminated comment starting line 23
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:14:06 --> ParseError: Unterminated comment starting line 23
+[Method: GET, Route: accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\Accounts_data_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Accounts_data_model')
+ 3 APPPATH\Controllers\accounts_data_controller.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Accounts_data_model')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Accounts_data_controller->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-21 12:14:52 --> ErrorException: Undefined variable $sql
+[Method: POST, Route: accounts_data/save_accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 26.
+ 1 APPPATH\Models\accounts_data_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sql', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\accounts_data_model.php', 26)
+ 2 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

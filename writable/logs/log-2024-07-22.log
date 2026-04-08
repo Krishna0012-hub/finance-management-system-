@@ -1,0 +1,140 @@
+ERROR - 2024-07-22 15:57:22 --> mysqli_sql_exception: Unknown column '	as_on_date' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-22 15:57:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 15:57:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 3 APPPATH\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 15:57:22 --> [Caused by] mysqli_sql_exception: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 4 APPPATH\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'5225235\', \'32525\', \'3522\', \'32525\', \'32525\', \'1\', \'2024-07-22 03:07:22\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-22 15:59:30 --> mysqli_sql_exception: Unknown column '	as_on_date' in 'field list' in D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\D\xampp\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ac...', 0)
+#1 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 D:\D\xampp\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 D:\D\xampp\htdocs\codeigniter\app\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...')
+#4 D:\D\xampp\htdocs\codeigniter\app\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data(Array)
+#5 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+#6 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+#7 D:\D\xampp\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\D\xampp\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\D\xampp\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\D\xampp\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-07-22 15:59:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+[Method: POST, Route: accounts_data/save_accounts_data]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 2 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 15:59:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 3 APPPATH\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 4 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 15:59:30 --> [Caused by] mysqli_sql_exception: Unknown column '	as_on_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 4 APPPATH\Models\accounts_data_model.php(27): CodeIgniter\Database\BaseConnection->query('INSERT INTO `accounts_data` (`id`, `account_no`, `	as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, \'32424\', \'32424\', \'3242\', \'324\', \'234324\', \'1\', \'2024-07-22 03:07:30\');')
+ 5 APPPATH\Controllers\accounts_data_controller.php(35): App\Models\accounts_data_model->set_accounts_data([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:13:33 --> Error: Call to a member function getResultArray() on bool
+[Method: POST, Route: accounts_data/save_accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 30.
+ 1 APPPATH\Controllers\accounts_data_controller.php(38): App\Models\accounts_data_model->set_accounts_data([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:14:07 --> Error: Call to a member function getResultArray() on bool
+[Method: POST, Route: accounts_data/save_accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 30.
+ 1 APPPATH\Controllers\accounts_data_controller.php(38): App\Models\accounts_data_model->set_accounts_data([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:14:45 --> Error: Call to a member function getResultArray() on bool
+[Method: POST, Route: accounts_data/save_accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 30.
+ 1 APPPATH\Controllers\accounts_data_controller.php(38): App\Models\accounts_data_model->set_accounts_data([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:15:27 --> Error: Call to a member function getResultArray() on bool
+[Method: POST, Route: accounts_data/save_accounts_data]
+in APPPATH\Models\accounts_data_model.php on line 30.
+ 1 APPPATH\Controllers\accounts_data_controller.php(38): App\Models\accounts_data_model->set_accounts_data([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Accounts_data_controller->save_accounts_data()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accounts_data_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

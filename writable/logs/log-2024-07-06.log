@@ -1,0 +1,734 @@
+CRITICAL - 2024-07-06 07:21:40 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(23): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:22:48 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(23): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:31:02 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(23): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:34:02 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: calculator_1]
+in APPPATH\Views\calculator_home_view.php on line 209.
+ 1 APPPATH\Views\calculator_home_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\calculator_home_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\calculator_home_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('calculator_home_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(16): view('calculator_home_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:50:47 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:51:06 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:54:09 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:54:34 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:55:11 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:55:12 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:55:44 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(25): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 07:56:38 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(24): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 08:00:21 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(27): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 08:06:19 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(27): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 11:41:48 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(29): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 11:42:12 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(28): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 11:42:23 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(28): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 11:42:24 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: my_functon]
+in APPPATH\Views\my_function_view.php on line 209.
+ 1 APPPATH\Views\my_function_view.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(28): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:13:14 --> ParseError: Unclosed '{' on line 6
+[Method: GET, Route: my_functon]
+in APPPATH\Controllers\Calculator.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:13:19 --> ParseError: Unclosed '{' on line 6
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:14:20 --> ParseError: Unclosed '{' on line 6
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:20:24 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:22:28 --> ErrorException: Undefined variable $res
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 39.
+ 1 APPPATH\Controllers\Calculator.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:22:29 --> ErrorException: Undefined variable $res
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 39.
+ 1 APPPATH\Controllers\Calculator.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:23:22 --> ErrorException: Undefined variable $num1
+[Method: GET, Route: addition]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num1', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(41): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:23:23 --> ErrorException: Undefined variable $num1
+[Method: GET, Route: addition]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num1', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(41): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:23:23 --> ErrorException: Undefined variable $num1
+[Method: GET, Route: addition]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num1', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(41): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:23:23 --> ErrorException: Undefined variable $num1
+[Method: GET, Route: addition]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num1', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(41): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:23:24 --> ErrorException: Undefined variable $num1
+[Method: GET, Route: addition]
+in APPPATH\Views\my_function_view.php on line 210.
+ 1 APPPATH\Views\my_function_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $num1', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\my_function_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('my_function_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(41): view('my_function_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:27:02 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 210.
+ 1 APPPATH\Views\add_view.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php', 210)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(42): view('add_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:39:41 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:40:55 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:40:56 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:40:57 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 12:40:57 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:14:44 --> ErrorException: Undefined array key "num1"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 APPPATH\Controllers\Calculator.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "num1"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:15:59 --> ErrorException: Undefined variable $data
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 38.
+ 1 APPPATH\Controllers\Calculator.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:16:00 --> ErrorException: Undefined variable $data
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 38.
+ 1 APPPATH\Controllers\Calculator.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:16:25 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 213.
+ 1 APPPATH\Views\add_view.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php', 213)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(47): view('add_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:16:26 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 213.
+ 1 APPPATH\Views\add_view.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php', 213)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(47): view('add_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:16:26 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 213.
+ 1 APPPATH\Views\add_view.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php', 213)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(47): view('add_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:16:27 --> ErrorException: Undefined variable $sum
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 213.
+ 1 APPPATH\Views\add_view.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php', 213)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(47): view('add_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:25:34 --> TypeError: App\Controllers\Calculator::my_function(): Return value must be of type string, none returned
+[Method: GET, Route: my_functon]
+in APPPATH\Controllers\Calculator.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:27:21 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: multiplication]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:24 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: subtraction]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:26 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: subtraction]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:43 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: subtraction]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:45 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: subtraction]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:45 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: subtraction]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:46 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:27:48 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:28:41 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:29:03 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:29:12 --> ErrorException: Cannot redeclare App\Controllers\Calculator::mul()
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-06 13:30:02 --> TypeError: App\Controllers\Calculator::my_function(): Return value must be of type string, none returned
+[Method: GET, Route: my_functon]
+in APPPATH\Controllers\Calculator.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->my_function()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:35:55 --> ErrorException: Undefined variable $POST
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 29.
+ 1 APPPATH\Controllers\Calculator.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $POST', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:36:23 --> ErrorException: Undefined variable $REQUEST
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 29.
+ 1 APPPATH\Controllers\Calculator.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $REQUEST', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:36:24 --> ErrorException: Undefined variable $REQUEST
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 29.
+ 1 APPPATH\Controllers\Calculator.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $REQUEST', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:36:24 --> ErrorException: Undefined variable $REQUEST
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 29.
+ 1 APPPATH\Controllers\Calculator.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $REQUEST', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:41:26 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 211.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 3 APPPATH\Controllers\Calculator.php(35): view('add_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 13:47:43 --> ErrorException: Undefined array key "num1"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 31.
+ 1 APPPATH\Controllers\Calculator.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "num1"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 15:53:58 --> ErrorException: Undefined variable $a
+[Method: GET, Route: addition]
+in APPPATH\Views\add_view.php on line 211.
+ 1 APPPATH\Views\add_view.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php', 211)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Views\\add_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('add_view', [], true)
+ 5 APPPATH\Controllers\Calculator.php(36): view('add_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 15:55:30 --> ErrorException: Undefined array key "a"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 30.
+ 1 APPPATH\Controllers\Calculator.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "a"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calculator->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calculator))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 16:23:29 --> ParseError: syntax error, unexpected identifier "view"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 16:23:32 --> ParseError: syntax error, unexpected identifier "view"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-06 16:23:49 --> ParseError: syntax error, unexpected identifier "view"
+[Method: GET, Route: addition]
+in APPPATH\Controllers\Calculator.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\D\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Calculator.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calculator')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calculator')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Calculator', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

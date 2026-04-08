@@ -1,0 +1,92 @@
+CRITICAL - 2024-07-15 16:42:06 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 16:47:17 --> ErrorException: Cannot redeclare App\Models\account_model::set_accounts_data()
+[Method: GET, Route: accounts]
+in APPPATH\Models\account_model.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-15 16:48:10 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 16:51:34 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 16:53:07 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 16:57:03 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 16:59:24 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 17:00:42 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-15 17:10:00 --> ErrorException: Undefined array key "account_name"
+[Method: POST, Route: accounts/delete_account_data]
+in APPPATH\Models\account_model.php on line 26.
+ 1 APPPATH\Models\account_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "account_name"', 'D:\\D\\xampp\\htdocs\\codeigniter\\app\\Models\\account_model.php', 26)
+ 2 APPPATH\Controllers\account_controller.php(41): App\Models\account_model->set_accounts_data([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Account_controller->save_account_data()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
