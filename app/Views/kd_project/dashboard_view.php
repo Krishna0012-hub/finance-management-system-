@@ -27,7 +27,7 @@
                     <div class="card text-white bg-primary">
                         <div class="card-body">
 						<?php foreach($total_fd as $acc_key => $acc_value) : ?>
-                            <h5 class="card-title">Total Savings</h5>
+                            <h5 class="card-title font-size:5px">Total Savings</h5>
                             <p class="card-text">₹ <?php echo number_format($acc_value['total_saving_amount'], 2); ?></p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
         <table class="table table-bordered table-striped table-hover" id="dash">
             <thead class="table-dark">
                 <tr>
-                    <th style="width:100px">As on Date</th>
+                    <th style="width:100px" class="font-size:12px">As on Date</th>
                     <th>Total Saving </th>
                     <th>Total FD </th>
                     <th>Total Money In ELESS MF</th>
@@ -159,7 +159,7 @@
     <h3 class="mb-4 text-center">Single Person Data</h3>
 
     <div class="table-responsive">
-        <table class="table table-bordered table-striped table-hover" id="single_data">
+        <table class="table table-bordered table-striped table-hover" id="single_data" >
             <thead class="table-dark">
                 <tr>
                     <th>Owner</th>

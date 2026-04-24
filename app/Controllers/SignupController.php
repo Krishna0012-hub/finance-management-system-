@@ -13,7 +13,7 @@ class SignupController extends Controller
 		//echo "signup";
         return view('kd_project/signup_view');
     }
-public function signupPost()
+    public function signupPost()
     {
         // Load the User Model
         $userModel = new UserModel();
@@ -23,28 +23,22 @@ public function signupPost()
         $account_number = $this->request->getPost('account_number');
 		$email = $this->request->getPost('email');
 		$password = $this->request->getPost('password');
-		echo $account_name; 
-		echo $account_number; 
-		echo $email;
-		echo $password; 
+
 		$data = [
-    'account_name' => $account_name,
-    'account_number' => $account_number,
-    'email' => $email,
-    'password' =>$password // Encrypt the password before storing
-];
+            'account_name' => $account_name,
+            'account_number' => $account_number,
+            'email' => $email,
+            'password' => password_hash($password, PASSWORD_DEFAULT),
+        ];
 
-// Insert the data into the database
-$userModel->insert($data);
+        // Insert the data into the database
+        $userModel->insert($data);
 
-// Optionally, you can check if the data was inserted successfully
-if ($userModel->insertID()) {
-    echo "Data inserted successfully!";
-} else {
-    echo "Failed to insert data.";
-}
+        if (! $userModel->insertID()) {
+            return redirect()->back()->with('error', 'Account could not be created.');
+        }
 
-     // Redirect with success message
+        // Redirect with success message
         return redirect()->to('/login')->with('success', 'Account created successfully! You can now login.');
     }
 }

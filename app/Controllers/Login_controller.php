@@ -26,30 +26,39 @@ class Login_controller extends BaseController{
 		 
 		  
         $userModel = new UserModel();
-		$result = $userModel->where('email',$this->request->getVar('email'))->
-		where('password',$this->request->getVar('password'))->first();
+		$email = $this->request->getPost('email');
+		$password = $this->request->getPost('password');
+		$result = $userModel->where('email', $email)->first();
 		
 		
-             if($result){
+             if($result && $this->isValidPassword($password, $result['password'])){
+				 if (! password_get_info($result['password'])['algo']) {
+					$userModel->update($result['id'], [
+						'password' => password_hash($password, PASSWORD_DEFAULT),
+					]);
+				 }
 				 $this->session->set([
                 'user_id'   => $result['id'],
-                'User_name' => $result['name'],
+                'User_name' => $result['account_name'] ?? ($result['name'] ?? ''),
                 'isLoggedIn' => true
             ]);
-            // Print session data
-            //echo '<pre>';
-        //print_r($this->session->get('User_name')); 
-         //echo '</pre>'; 
-			
-			echo 'login post - '.session('user_id'); echo '<br>'; //die;
 			
 			 return redirect()->to('/accounts'); 	
 		}
 		else{
-			echo "error";
-			 return view('kd_project/login_view');
+			 return redirect()->back()->with('error', 'Invalid email or password.');
 		}
     }
+
+	private function isValidPassword(string $plainPassword, string $storedPassword): bool
+	{
+		if (password_verify($plainPassword, $storedPassword)) {
+			return true;
+		}
+
+		// Temporary fallback for old plain-text records already stored in the database.
+		return hash_equals($storedPassword, $plainPassword);
+	}
 	public function displaySession() {
         $session = \Config\Services::session();
 		$mySession = [
