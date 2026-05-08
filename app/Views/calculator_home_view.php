@@ -6,9 +6,12 @@
     <title>Document</title>
     <!--<link href="style.css" rel="stylesheet" type="text/css" />
     <link href="utils.css" rel="stylesheet" type="text/css" />-->
+    <style>
+        div{margin-top: 10px;}
+        </style>
 </head>
 <body>
-    <h1 class="text-center">Welcome to Calculate me!</h1>
+    <h1 class="text-center">Welcome to Krishna  Calculator!</h1>
     <div class="container flex flex-col items-center mx-auto m-w-20" style="justify-content:center; align-items:center;">
         <div class="row">
             <input class="input" type="text" style="width:290px";>

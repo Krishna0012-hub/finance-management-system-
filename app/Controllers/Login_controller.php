@@ -42,10 +42,26 @@ class Login_controller extends BaseController{
                 'User_name' => $result['account_name'] ?? ($result['name'] ?? ''),
                 'isLoggedIn' => true
             ]);
-			
+
+			 if ($this->request->isAJAX()) {
+				 return $this->response->setJSON([
+					 'status' => 'success',
+					 'redirect' => base_url('accounts'),
+				 ]);
+			 }
+
 			 return redirect()->to('/accounts'); 	
 		}
 		else{
+			 if ($this->request->isAJAX()) {
+				 return $this->response
+					 ->setStatusCode(401)
+					 ->setJSON([
+						 'status' => 'error',
+						 'message' => 'Invalid email or password.',
+					 ]);
+			 }
+
 			 return redirect()->back()->with('error', 'Invalid email or password.');
 		}
     }

@@ -1,59 +1,52 @@
-function login()
-  {
-	 console.log('start');
-	  
-	   $("#signupForm").validate({
-			  
+$(function() {
+    $("#loginForm").validate({
         rules: {
-			 password: {
-                required: true,
-                minlength: 2
-            },
-          email: {
+            email: {
                 required: true,
                 email: true
             },
-           messages: {
-			    password: {
-                required: " Please enter a password",
-                minlength:
-                    " Your password must be consist of at least 2 characters"
+            password: {
+                required: true,
+                minlength: 2
+            }
+        },
+        messages: {
+            email: {
+                required: "Please enter email",
+                email: "Please enter valid email"
             },
-		},
-		}
-	   });
-		console.log('mid');
-    /*
-	var email = $('#email').val();
-	var password = $('#password').val();
-	//console.log('Sign is called.');
-	//alert(email);
-	if(email=="")
-	{
-		//alert('please enter email_id ');
-		$("#mail").html("Please enter email!").css({
-    "color": "red",
-    "font-size": "14px",
-    "font-weight": "bold",
-    "padding": "10px",
-    "border": "1px solid red",
-    "background-color": "#fdd"
-});	
-		console.log('mail');
-		return false;
-	}
-	if(password=="")
-	{
-		//alert('please enter sign_password');
-		$("#psd").html("Please enter password!").css({
-    "color": "red",
-    "font-size": "14px",
-    "font-weight": "bold",
-    "padding": "10px",
-    "border": "1px solid red",
-    "background-color": "#fdd"
-});	
-		return false;
-	}*/
-	
-	  }
+            password: {
+                required: "Please enter a password",
+                minlength: "Password must be at least 2 characters"
+            }
+        },
+
+        submitHandler: function(form) {
+
+            $.ajax({
+                type: 'POST',
+                url: $(form).attr('action'),
+                data: $(form).serialize(),
+                dataType: 'json',
+
+                success: function(response) {
+                    console.log(response);
+
+                    if (response.status === 'success') {
+                        window.location.href = response.redirect;
+                        return;
+                    }
+
+                    alert(response.message || 'Login failed!');
+                },
+
+                error: function(error) {
+                    console.error('Error:', error);
+                    alert(error.responseJSON?.message || 'Login failed!');
+                }
+            });
+
+            return false;
+        }
+    });
+});

@@ -26,7 +26,7 @@ $routes->get('/login', 'Login_controller::login');
 $routes->post('/Login_controller/loginPost', 'Login_controller::loginPost');
 $routes->get('/logout', 'Login_controller::logout');
 $routes->get('/signup', 'SignupController::index');
-$routes->post('/SingupController/signupPost', 'SignupController::signupPost');
+$routes->post('/SignupController/signupPost', 'SignupController::signupPost');
 $routes->get('/at', 'At_controller::index', ['filter' => 'auth']);
 
 
