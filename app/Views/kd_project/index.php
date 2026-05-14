@@ -93,8 +93,10 @@
 </body>
 <script>
     $(document).ready(function() {
-		console.log('account or index datatable');
-        $('#account_table').DataTable();
+        $('#account_table').DataTable({
+            pageLength: 5,
+            lengthMenu: [5, 10, 25, 50, 100]
+        });
 		//alert('datatable');
     });
 </script>
