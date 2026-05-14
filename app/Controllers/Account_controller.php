@@ -72,4 +72,27 @@ class Account_controller extends BaseController{
 	   }	
        			$accounts_data = $this->acc_model->delete_accounts_data($_POST);
 	}
+
+	public function store()
+	{
+		$data = $this->request->getPost();
+		$this->acc_model->insert_account($data);
+
+		return $this->response->setJSON(['status' => 'success']);
+	}
+
+	public function update($id)
+	{
+		$data = $this->request->getRawInput();
+		$this->acc_model->update_account($id, $data);
+
+		return $this->response->setJSON(['status' => 'success']);
+	}
+
+	public function delete($id)
+	{
+		$this->acc_model->delete_account($id);
+
+		return $this->response->setJSON(['status' => 'success']);
+	}
 }

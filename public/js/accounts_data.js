@@ -188,7 +188,7 @@ function update_account(id){
 function update_acc_data(id){
 		   $.ajax({
             type: 'POST',
-            url: '/codeigniter/public/accounts_data/update_acc_data', // Adjust URL as per your routing
+            url: '/finance-management-system-/public/accounts_data/update_acc_data', // Adjust URL as per your routing
             data: id, // Convert to JSON string
 			async: false, 
             success: function(response) {
@@ -212,12 +212,12 @@ function update_acc_data(id){
 if (confirm('Are you sure you want to delete')) {
     $.ajax({
         type: 'POST',
-        url: '/codeigniter/public/accounts_data/delete_accounts_data', // Adjust URL as per your routing
+        url: '/finance-management-system-/public/accounts_data/delete_accounts_data', // Adjust URL as per your routing
         data: {'id':id} , // Convert to JSON string
         success: function(response) {
             console.log(response); // Log the response from backend
             //alert('User data deleted successfully!');
-		   window.location.href = '/codeigniter/public/accounts_data';
+		   window.location.href = '/finance-management-system-/public/accounts_data';
             // Optionally clear form fields or perform other actions upon success
         },
         error: function(error) {

@@ -11,10 +11,9 @@ use CodeIgniter\Router\RouteCollection;
 // $routes->get('/addition', 'Calculator::add')
 $routes->group('',['filter'=>'myauth'], function($routes){
 $routes->get('/accounts', 'Account_controller::index');
-$routes->post('/accounts/loginPost', 'Account_controller::loginPost');
-$routes->post('/accounts/save_account_data', 'Account_controller::save_account_data');
-$routes->post('/accounts/delete_account_data', 'Account_controller::delete_account_data');
-$routes->post('/accounts/update_account_data', 'Account_controller::update_account_data');
+$routes->post('/accounts', 'Account_controller::store');
+$routes->put('/accounts/(:num)', 'Account_controller::update/$1');
+$routes->delete('/accounts/(:num)', 'Account_controller::delete/$1');
 $routes->get('/accounts/sesson_data', 'Account_controller::sesson_data');
 $routes->get('/accounts_data', 'Accounts_data_controller::index');
 $routes->post('/accounts_data/save_accounts_data', 'Accounts_data_controller::save_accounts_data');
