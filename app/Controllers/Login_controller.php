@@ -4,6 +4,7 @@ use App\Models\UserModel;
 
 class Login_controller extends BaseController{
 	 protected $acc_model;
+	 protected $session;
    
     public function __construct()
     {
@@ -26,8 +27,8 @@ class Login_controller extends BaseController{
 		 
 		  
         $userModel = new UserModel();
-		$email = $this->request->getPost('email');
-		$password = $this->request->getPost('password');
+		$email = trim((string) $this->request->getPost('email'));
+		$password = (string) $this->request->getPost('password');
 		$result = $userModel->where('email', $email)->first();
 		
 		

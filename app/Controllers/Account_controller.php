@@ -9,9 +9,6 @@ class Account_controller extends BaseController{
     public function __construct()
     {
         // Load the Account_model in the constructor
-         if(empty(session('user_id'))){
-			return redirect()->to('/login'); 	
-	   }
        $this->acc_model = new Account_model();
 	   
     }

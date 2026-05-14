@@ -17,9 +17,6 @@ class Accounts_data_controller extends BaseController
    
     public function index()
     {
-		 if(empty(session('user_id'))){
-			return redirect()->to('/login'); 	
-	   }
 		$data = array();
 		$accounts_data = $this->acc_model->get_accounts_data();
 		//echo 'accounts_data <pre>'; print_r($accounts_data); die;
