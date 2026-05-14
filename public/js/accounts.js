@@ -93,8 +93,8 @@ return false;
 	console.log(data_arr);
 	var method = id == 0 ? 'POST' : 'PUT';
 	var url = id == 0
-		? '/codeigniter/public/accounts'
-		: '/codeigniter/public/accounts/' + id;
+		? '/finance-management-system-/public/accounts'
+		: '/finance-management-system-/public/accounts/' + id;
 	
 	// Send Ajax request
     $.ajax({
@@ -104,7 +104,7 @@ return false;
         success: function(response) {
             console.log(response); // Log the response from backend
             alert('User data saved successfully!');
-			window.location.href = '/codeigniter/public/accounts';
+			window.location.href = '/finance-management-system-/public/accounts';
             // Optionally clear form fields or perform other actions upon success
         },
         error: function(error) {
@@ -125,7 +125,7 @@ function delete_account(id){
 if (confirm('Are you sure you want to delete')) {
     $.ajax({
         type: 'DELETE',
-        url: '/codeigniter/public/accounts/' + id,
+        url: '/finance-management-system-/public/accounts/' + id,
         success: function(response) {
             console.log(response); // Log the response from backend
            // alert('User data deleted successfully!');
