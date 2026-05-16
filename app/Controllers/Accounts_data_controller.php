@@ -30,14 +30,26 @@ class Accounts_data_controller extends BaseController
 	     if(empty(session('user_id'))){
 			return redirect()->to('/login'); 	
 	   }
-		$accounts_data = $this->acc_model->set_accounts_data($_POST);
+		$postData = $this->request->getPost();
+
+		if (!$this->isValidAccountsData($postData)) {
+			return $this->response->setStatusCode(400)->setBody('Invalid account data.');
+		}
+
+		$accounts_data = $this->acc_model->set_accounts_data($postData);
 	}
 	public function delete_accounts_data()
 	{      
 	          if(empty(session('user_id'))){
 			return redirect()->to('/login'); 	
 	   }
-	    	$accounts_data = $this->acc_model->delete_accounts_data($_POST);
+		$postData = $this->request->getPost();
+
+		if (empty($postData['id']) || !ctype_digit((string) $postData['id'])) {
+			return $this->response->setStatusCode(400)->setBody('Invalid account data id.');
+		}
+
+	    $accounts_data = $this->acc_model->delete_accounts_data($postData);
 	}
 		
 	public function get_fields_data()
@@ -121,5 +133,37 @@ class Accounts_data_controller extends BaseController
             echo 'File upload failed.';
         }
     }
-}
 
+	private function isValidAccountsData($data)
+	{
+		$requiredFields = [
+			'id',
+			'account_number',
+			'as_on_date',
+			'fixed_amount',
+			'veriable_amount',
+		];
+
+		foreach ($requiredFields as $field) {
+			if (!isset($data[$field]) || trim((string) $data[$field]) === '') {
+				return false;
+			}
+		}
+
+		if (!ctype_digit((string) $data['id'])) {
+			return false;
+		}
+
+		if (strtotime($data['as_on_date']) === false) {
+			return false;
+		}
+
+		if (!is_numeric($data['fixed_amount']) || !is_numeric($data['veriable_amount'])) {
+			return false;
+		}
+
+		return !isset($data['diff_amount'])
+			|| trim((string) $data['diff_amount']) === ''
+			|| is_numeric($data['diff_amount']);
+	}
+}

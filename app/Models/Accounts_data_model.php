@@ -24,28 +24,40 @@ class accounts_data_model extends Model
     }
 	public function set_accounts_data($request)
     {
-		  $datetime = date("Y-m-d h:m:s");
-		 // echo "hello1 <br>"; 
-		 if($request['id'] == 0){
-		$sql = "INSERT INTO `accounts_data` (`id`, `account_number`, `as_on_date`, `fixed_amount`, `veriable_amount`, `diff_amount`, `updated_by`, `updated_date`) VALUES (NULL, '".$request['account_number']."', '".$request['as_on_date']."', '".$request['fixed_amount']."', '".$request['veriable_amount']."', '".$request['diff_amount']."', '1', '".$datetime."');";
+		$datetime = date("Y-m-d H:i:s");
+		$diffAmount = $request['diff_amount'] ?? '';
+
+		if (trim((string) $diffAmount) === '') {
+			$diffAmount = $request['veriable_amount'] - $request['fixed_amount'];
 		}
-		else{
-			$sql = "UPDATE `accounts_data` SET `account_number` 	= '".$request['account_number']."',
-										  `as_on_date` 	= '".$request['as_on_date']."',
-										  `fixed_amount` 		= '".$request['fixed_amount']."',
-										  `veriable_amount` 	= '".$request['veriable_amount']."',
-										  `diff_amount` 	= '".$request['diff_amount']."'
-										  
-					WHERE id = '".$request['id']."';";
+
+		$data = [
+			'account_number' => $request['account_number'],
+			'as_on_date' => $request['as_on_date'],
+			'fixed_amount' => $request['fixed_amount'],
+			'veriable_amount' => $request['veriable_amount'],
+			'diff_amount' => $diffAmount,
+		];
+
+		if ((int) $request['id'] === 0) {
+			$data['updated_by'] = 1;
+			$data['updated_date'] = $datetime;
+
+			$this->db->table('accounts_data')->insert($data);
+		} else {
+			$this->db->table('accounts_data')
+				->where('id', (int) $request['id'])
+				->update($data);
 		}
-		  $query = $this->db->query($sql);
+
         return true;
 		}
 	public function delete_accounts_data($request)
     {
-		//$datetime = date("Y-m-d h:m:s");
-		 $sql ="DELETE FROM accounts_data WHERE `id` = '".$request['id']."'";
-		 $query = $this->db->query($sql);
+		 $this->db->table('accounts_data')
+			->where('id', (int) $request['id'])
+			->delete();
+
          return true;
     }
 	public function get_accounts()

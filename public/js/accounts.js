@@ -224,7 +224,7 @@ function update_account(id){
 }
 
 function cancel_row(id){
-	console.log('cancel row is called');
+	// console.log('cancel row is called');
 	window.location.href = '/finance-management-system-/public/accounts';
 	//$("#row_id_"+id).stop();
 

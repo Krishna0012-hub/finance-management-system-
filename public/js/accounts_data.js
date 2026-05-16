@@ -76,12 +76,12 @@ function save_acc_data(id){
         // Send Ajax request
          $.ajax({
             type: 'POST',
-            url: '/codeigniter/public/accounts_data/save_accounts_data', // Adjust URL as per your routing
+            url: '/finance-management-system-/public/accounts_data/save_accounts_data', // Adjust URL as per your routing
             data: data_arr, // Convert to JSON string
             success: function(response) {
                 console.log(response); // Log the response from backend
                 alert('User data saved successfully!');
-                window.location.href = '/codeigniter/public/accounts_data';
+                window.location.href = '/finance-management-system-/public/accounts_data';
                 // Optionally clear form fields or perform other actions upon success
             },
             error: function(error) {
@@ -99,7 +99,7 @@ function get_fields_data(id)
 		  
 		   $.ajax({
             type: 'POST',
-            url: '/codeigniter/public/accounts_data/get_fields_data', // Adjust URL as per your routing
+            url: '/finance-management-system-/public/accounts_data/get_fields_data', // Adjust URL as per your routing
             data: id, // Convert to JSON string
 			async: false, 
             success: function(response) {

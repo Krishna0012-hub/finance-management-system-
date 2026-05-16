@@ -65,20 +65,12 @@
             <th>ACTION</th> 			
             </tr>
        </thead>
+         <tbody>
 	   <?php  
 	   
     	   //echo 'data of  - <pre>'; print_r($accounts_data); echo '<br>';
 		    
 	foreach($accounts_data as $acc_key => $acc_value){
-				//echo 'key - '; echo $acc_key. ' - acc_value - '; print_r($acc_value['account_no']); echo '<br>';
-				
-				//echo 'acc_value - '.$acc_value['fixed_amount'].'<br>';
-				
-				/* foreach($acc_value as $arr_key => $arr_value){
-					echo 'arr_key - '; echo $arr_key. ' - arr_value - '; print_r($arr_value); echo '<br>';
-				} 
-			}*/
-				
 				echo '<tr id="row_id_'.$acc_value['id'].'">
 						<td>'.$acc_value['id'].'</td>  
                         <td>'.$acc_value['account_holder'].' </td>						
@@ -99,8 +91,6 @@
 			}
 
 			?>
-			               
-        <tbody>
             
         </tbody>
         </table>
@@ -112,6 +102,8 @@
     var username = 'Accounts_Data'; // Example username. Replace with actual logic to get the username.
 
     $('#account_data_table').DataTable({
+         pageLength: 5,
+        lengthMenu: [5, 10, 25, 50, 100],
         dom: 'Bfrtip',
         buttons: [
             {
