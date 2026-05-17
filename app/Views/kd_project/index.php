@@ -24,9 +24,14 @@
     <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
+    <?php
+    $session = session();
+    $userName = $session->get('User_name');
+    ?>
 <div class="content">
         <div class="container-fluid" >
     <h3 class="mb-4 text-center">ACCOUNTS</h3>
+    <h5 class="mb-4 text-right">Welcome, <?= esc($userName) ?></h5>
     <div class="row">
         <!-- Buttons in a row with responsive columns -->
         <div class="col-sm-6 col-md-4 col-lg-3">
